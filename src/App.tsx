@@ -1,11 +1,13 @@
 import { Routes, Route, HashRouter } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Home from './pages/Home.tsx';
+
+// Removed the .tsx extensions and fixed the space!
+import Home from './pages/Home';
 import Bantuan from './pages/Bantuan';
 import Promo from './pages/Promo';
-import PaketInternet from './pages/Paket Internet.tsx';
-import PaketDetail from './pages/PaketDetail.tsx';
+import PaketInternet from './pages/PaketInternet.tsx'; 
+import PaketDetail from './pages/PaketDetail';
 
 export default function App() {
   return (
