@@ -4,9 +4,9 @@ import Autoplay from "embla-carousel-autoplay";
 
 export default function Products() {
   const products = [
-    { img: "src/assets/paket_30.png", tag: "Populer", alt: "Paket 30" },
-    { img: "src/assets/paket_100.png", tag: "Trending", alt: "Paket 100" },
-    { img: "src/assets/paket_400.png", tag: "New", alt: "Paket 400" },
+    { img: "/assets/paket_30.png", tag: "Populer", alt: "Paket 30" },
+    { img: "/assets/paket_100.png", tag: "Trending", alt: "Paket 100" },
+    { img: "/assets/paket_400.png", tag: "New", alt: "Paket 400" },
   ];
 
   const autoplay = useRef(

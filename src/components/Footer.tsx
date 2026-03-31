@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-8 grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-32">
         <div className="space-y-10 max-w-lg">
           <div className="space-y-6">
-            <img src="src/assets/MyKlikBNW.svg" className="h-16 w-auto" alt="Footer Logo" />
+            <img src="/assets/MyKlikBNW.svg" className="h-16 w-auto" alt="Footer Logo" />
             <p className="text-white/80 font-arimo leading-relaxed">MyKlik adalah layanan internet fiber optik terdepan di Indonesia yang menghadirkan koneksi super cepat, stabil, dan terpercaya untuk rumah dan bisnis Anda.</p>
           </div>
           

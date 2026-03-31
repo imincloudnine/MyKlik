@@ -19,7 +19,7 @@ export default function Locations() {
           {locations.map((loc, idx) => (
             <div key={idx} className="group bg-white p-5 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex items-center gap-4">
               <div className="p-3 bg-gradient-to-br from-[#012169] to-[#2659cc] rounded-xl shrink-0 shadow-lg shadow-blue-900/20">
-                <img src="src/assets/LocIcon.svg" alt="Location Icon" className="w-5 h-5" />
+                <img src="/assets/LocIcon.svg" alt="Location Icon" className="w-5 h-5" />
               </div>
               <div>
                 <h4 className="font-bold text-gray-900 group-hover:text-[#2659cc] transition-colors">{loc.city}</h4>

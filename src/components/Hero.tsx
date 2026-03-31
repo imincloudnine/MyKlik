@@ -45,12 +45,12 @@ export default function Hero() {
   return (
     <section className="relative h-[674px] grid place-items-center overflow-hidden">
       <div className="absolute inset-0">
-        <img src="src/assets/HeroBG.png" className="w-full h-full object-cover" alt="Hero Bg" />
+        <img src="/assets/HeroBG.png" className="w-full h-full object-cover" alt="Hero Bg" />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#012169]/85 bg-black/40"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-[#155dfc]/20 via-transparent to-[#00b8db]/20"></div>
       </div>
 
-      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-12 w-full grid gap-12">
+      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-12 w-full grid gap-4">
         <div className="max-w-3xl space-y-6">
           <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm text-white/90 border border-white/10">
             <span className="size-2 rounded-full bg-[#05df72]"></span>
